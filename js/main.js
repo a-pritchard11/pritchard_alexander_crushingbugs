@@ -6,6 +6,7 @@ const labels = document.querySelectorAll(".label")
 const targetZones = document.querySelectorAll(".target-zone");
 let currentDraggedElement = null;
 
+const resetbutton = document.querySelector("#reset-btn")
 // add variable for reset button
 
 // functions
