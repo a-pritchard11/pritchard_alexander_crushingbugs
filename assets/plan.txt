@@ -1,0 +1,6 @@
+The Problems I currently need to fix are:
+
+1: The labels that can be dragged and dropped can currently fit multiple into one drop zone. This is not intentional. I will likely need to use an if statement to fix this by forcing other child elements to reset if the user attempts to drop them into a space that is already occupied.
+Update: I have fixed this problem by indeed using an If statement that targets the children and forces them to return to their original position.
+
+2: The Reset button is not functioning yet. This problem is one I do not understand how to fix through javascript yet.
